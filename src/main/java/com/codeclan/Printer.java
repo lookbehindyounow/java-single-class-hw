@@ -4,8 +4,8 @@ public class Printer {
     private int sheets;
     private int toner;
     public Printer(int _sheets, int _toner){
-        this.sheets = _sheets;
-        this.toner = _toner;
+        this.sheets=_sheets;
+        this.toner=_toner;
     }
     public int getSheets(){
         return this.sheets;
