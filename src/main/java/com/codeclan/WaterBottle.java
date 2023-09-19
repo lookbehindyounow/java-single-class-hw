@@ -1,10 +1,12 @@
 package com.codeclan;
 
 public class WaterBottle {
-    private int volume;
-    public WaterBottle(){
-        this.fill();
-    }
+    private int volume=100; // can do this way
+
+//    private int volume; // or this way
+//    public WaterBottle(){ // no difference
+//        this.fill();
+//    }
     public int getVolume(){
         return volume;
     }
